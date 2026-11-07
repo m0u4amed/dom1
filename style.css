@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#color-box {
+  width: 200px;
+  height: 200px;
+  margin: 30px auto;
+  background-color: #3498db;
+  border: 3px solid #333;
+  border-radius: 12px;
+  transition: background-color 0.4s ease;
+}
+
+#change-color-btn {
+  padding: 12px 28px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#change-color-btn:hover {
+  background-color: #555;
+}
+
+#change-color-btn:active {
+  transform: scale(0.96);
+}
